@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+
+
+   width: 100%; 
+   height: 100px;
+   background: #0a103d;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 20px 0px 20px 0px;
+   
+}
+.navbar span{
+    color: yellow;
+    font-size: 50px;
+  
+}
+.navbar h1{
+   color: white; 
+   font-size: 50px;
+}
+.navbar h1 a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navbar h1:hover a{
+    color: yellow;
+}
+.navbar ul{
+  display: flex;  
+  column-gap: 30px;
+  
+}
+.navbar ul li{
+    list-style-type: none;
+    
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold; 
+    transition: 0.5s;
+   display: block;
+}
+.navbar ul li:hover a{
+    color: yellow;
+}
+.navbar label{
+    display: none;
+}
+.navbar input{
+    display: none;
+}
+.navbar label i{
+    color: white;
+    font-size: 40px;
+}
+ .content{
+     width: 100%;
+     height: 3000px;
+     background: white;
+     
+     
+     
+ }
+ 
+
+ 
+.inclusive{
+    width: 100%;
+    overflow:hidden ;
+    
+    
+}
+.galeri {
+    position: relative;
+    width: 400%;
+    left: 0%;   
+    animation: 16s slayt infinite;
+    overflow: hidden;
+    
+}
+@keyframes slayt{
+   0%{left:0%;} 
+   20%{left:0%;}
+   25%{left:-100%;}
+   45%{left:-100%;}
+   50%{left:-200%;}
+   70%{left:-200%;}
+   75%{left:-300%;}
+   90%{left:-300%;}
+   
+}
+.galeri img{
+    width: 25%;
+    height: 250px;
+    float: left;
+    background-size: cover;
+}
+.bottom{
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 0px 10px black;
+    padding: 10px 10px 10px 20px;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+.bottom h1{
+    font-size: 20px;
+    
+    
+}
+.bottom p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.email{
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    
+    
+}
+.emdiv{
+
+display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 20%;
+    padding-right: 30px;
+    
+}
+
+
+.bott{
+    width: 80%;
+}
+.email:hover{
+padding-top: 7px;
+    
+}
+
+
+.footer{
+    width: 100%;
+    height: auto;
+    background:#0a103d ;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+}
+.botcon{
+width: 100%;
+height: auto;
+background: white;
+display: flex;
+justify-content: center;
+    
+}
+.botcon1{
+    width: 90%;
+    height: auto;
+    background: white;
+    box-shadow:  2px 5px 20px black;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+    
+    }
+    
+    .botcon1 h3{
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.topfooter div{
+width: 100%;
+height: auto;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+  
+}
+.topfooter ul li{
+    list-style-type: none;
+}
+.topfooter ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    background: ;
+    border-radius: 5px;
+    border: 2px solid white;  
+    transition: 0.5s;
+}
+.topfooter ul li:hover a{
+    border: 2px solid yellow;
+    color: yellow;
+}
+.topfooter ul{
+width: 100%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px 20px 10px;
+    column-gap: 20px;
+}
+.topfooter p{
+    color: white;
+}
+.botfooter{
+padding: 10px 10px 10px 10px;
+    width: 100%;
+    height: auto;
+    background: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid white;
+   
+}
+.botfooter ul{
+display: flex;
+column-gap: 20px;
+    
+}
+.botfooter ul li{
+list-style-type: none;
+    
+}
+.botfooter ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.botfooter .aone:hover i{
+    color: red;
+}
+.botfooter .atwo:hover i{
+    color: #4740ff;
+}
+.botfooter .athree:hover i{
+    color: blue;
+}
+.botfooter .afour:hover i{
+    color: red;
+}
+.footer h3{
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.footer h3 span{
+    color: yellow;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+.navbar{
+
+
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 30px;
+    
+   
+    
+}
+.content{
+   
+}
+.navbar h1{
+    font-size: 30px;
+}
+.navbar ul {
+position: absolute;
+   margin-top: 220px;
+    left: -100%;
+    width: 100%;
+    display: block;
+    background:#0a103d;
+    padding-left: 20px;
+    transition: 0.5s;
+    border-bottom: 5px solid yellow;
+    line-height: 40px;
+    z-index: 2;
+}
+.navbar ul li{
+    
+}
+
+.navbar label{
+    display: block;
+    justify-content: center;
+}
+.navbar input:checked~ul{
+   left: 0; 
+   
+}
+.bottom h1{
+    font-size: 25px;
+}
+.bottom{
+   display: block;
+   
+}
+.bott{
+    width: 100%;
+}
+.emdiv{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    
+}
+.topfooter div{
+    flex-wrap: wrap;
+}
+.topfooter div p{
+    margin-bottom: 20px;
+}
+   .topfooter ul{
+       display: flex;
+       column-gap: 20px;
+       
+       
+   }
+}
