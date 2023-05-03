@@ -18,6 +18,7 @@ body{
    justify-content: space-around;
    align-items: center;
    padding: 20px 0px 20px 0px;
+   border-bottom: 1px solid white;
    
 }
 .navbar span{
@@ -70,9 +71,8 @@ body{
 }
  .content{
      width: 100%;
-     height: 3000px;
+     height: auto;
      background: white;
-     
      
      
  }
@@ -281,10 +281,120 @@ list-style-type: none;
 .footer h3 span{
     color: yellow;
     font-size: 30px;
+    
 }
-
-
-
+.source{
+    width: 100%;
+    height: auto;
+    background:#0a103d ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    cursor: pointer;
+    padding: 30px 30px 30px 30px;
+    
+}
+.source input{
+    width: 70%;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background: white;
+    border-radius:0px 5px 5px 0px ;
+    transition: 0.5s;
+}
+.source input::placeholder{
+    color: #d2d2d2;
+}
+.source input:hover{
+   border: 2px solid yellow; 
+}
+.source i{
+color: white;
+font-size: 30px;
+background: yellow;
+padding:5px 10px 5px 10px ;
+  border-radius: 5px 0px 0px 5px; 
+  border-right: 2px solid black; 
+}
+.diger{
+    width: 22.5%;
+    height: 300px;
+    box-shadow:  2px 5px 20px black;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 20px;
+}
+.diger1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 2%;
+    flex-wrap: wrap;
+}
+.ilgi{
+    font-size: 25px;
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+.diger2{
+width: 22.5%;
+height: 300px;
+ box-shadow:  2px 5px 20px black;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 20px;
+}
+.diger3{
+width: 22.5%;
+height: 300px;
+ box-shadow:  2px 5px 20px black;
+    padding: 10px 10px 10px 20px;
+   margin-bottom: 20px; 
+}
+.diger4{
+width: 22.5%;
+height: 300px;
+ box-shadow:  2px 5px 20px black;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 20px;
+    
+}
+.diger5{
+width: 22.5%;
+height: 300px;
+ box-shadow:  2px 5px 20px black;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 20px;
+    
+}
+.diger6{
+width: 22.5%;
+height: 300px;
+ box-shadow:  2px 5px 20px black;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 20px;
+}
+.diger7{
+width: 22.5%;
+height: 300px;
+ box-shadow:  2px 5px 20px black;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 20px;
+}
+.diger8{
+width: 22.5%;
+height: 300px;
+ box-shadow:  2px 5px 20px black;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 20px;
+}
 
 
 
@@ -334,7 +444,7 @@ list-style-type: none;
 }
 .navbar ul {
 position: absolute;
-   margin-top: 220px;
+   margin-top: 225px;
     left: -100%;
     width: 100%;
     display: block;
@@ -344,6 +454,7 @@ position: absolute;
     border-bottom: 5px solid yellow;
     line-height: 40px;
     z-index: 2;
+   
 }
 .navbar ul li{
     
@@ -384,5 +495,49 @@ position: absolute;
        column-gap: 20px;
        
        
+   }
+   .diger1{
+     flex-wrap:wrap ;  
+     
+   }
+   .diger{
+       width: 90%;
+       height: 900px;
+       margin-bottom: 20px;
+   }
+   .diger2{
+       width: 90%;
+       height: 900px;
+       margin-bottom: 20px;
+   }
+   .diger3{
+       width: 90%;
+       height: 900px;
+       margin-bottom: 20px;
+   }
+   .diger4{
+       width: 90%;
+       height: 900px;
+       margin-bottom: 20px;
+   }
+   .diger5{
+       width: 90%;
+       height: 900px;
+       margin-bottom: 20px;
+   }
+   .diger6{
+       width: 90%;
+       height: 900px;
+       margin-bottom: 20px;
+   }
+   .diger7{
+       width: 90%;
+       height: 900px;
+       margin-bottom: 20px;
+   }
+   .diger8{
+       width: 90%;
+       height: 900px;
+       margin-bottom: 20px;
    }
 }
